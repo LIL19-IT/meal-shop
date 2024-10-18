@@ -1,0 +1,95 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.DetailPage {
+  background: linear-gradient(to bottom right, #ffefd5, #ffe4e1);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.DetailPage:hover {
+  transform: scale(1.02);
+}
+
+.meal-image {
+  max-width: 100%;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.meal-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 20px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.meal-details p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+  display: flex;
+  align-items: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.meal-details p i {
+  margin-right: 10px;
+  color: #ff6b6b;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.meal-details p:hover i {
+  color: #ff5252;
+  transform: rotate(10deg);
+}
+
+.youtube-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.youtube-link i {
+  margin-right: 5px;
+}
+
+.youtube-link:hover {
+  background-color: #ff5252;
+  transform: translateY(-3px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

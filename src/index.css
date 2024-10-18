@@ -1,0 +1,17 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #1c1c1c, #f857a6, #ff5858);
+  color: #fff;
+
+  
+  
+}
+

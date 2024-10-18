@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.HomePage {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Filter {
+    margin-bottom: 20px;
+}
+
+.Filter input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.CategoryList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.CategoryItem {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.CategoryItem:hover {
+    transform: scale(1.05);
+}
+
+.CategoryItem h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.CategoryItem p {
+    font-size: 14px;
+    color: #666;
+}
+
+.CategoryItem i {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ffdd57;
+}
+img{
+    width: 100%;
+}

@@ -1,0 +1,64 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.MealItem {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.MealItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.MealItem img {
+  max-width: 100%;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.MealItem:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.MealItem p {
+  font-size: 1em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.MealItem b {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #00796b;
+  transition: color 0.3s;
+}
+
+.MealItem:hover b {
+  color: #004d40;
+}
+
+.MealItem .icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.MealItem .icons i {
+  font-size: 1.5em;
+  color: #00796b;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.MealItem .icons i:hover {
+  color: #004d40;
+  transform: rotate(20deg);
+}

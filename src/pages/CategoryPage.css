@@ -1,0 +1,84 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.CategoryPage {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.CategoryPage h1 {
+  font-size: 2.5em;
+  color: #00796b;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: color 0.3s;
+}
+
+.CategoryPage h1:hover {
+  color: #004d40;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #00796b;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.back-link i {
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.back-link:hover {
+  color: #004d40;
+  transform: translateX(-5px);
+}
+
+.back-link:hover i {
+  transform: rotate(-20deg);
+}
+
+.MealList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.MealItem {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.MealItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.MealItem img {
+  max-width: 100%;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.MealItem:hover img {
+  transform: rotate(3deg);
+}
+
+.MealItem p {
+  font-size: 1em;
+  margin: 10px 0;
+  color: #333;
+}
